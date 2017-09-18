@@ -5,13 +5,10 @@
 @viewport { width: device-width; scale: 1; }
 
 html {
-  box-sizing: border-box;
-
-  -moz-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  text-size-adjust: 100%;
-
   font-family: 'Noto Sans', sans-serif;
   font-family: "Noto Sans Japanese", sans-serif;
+}
+
+nav {
+  color: #b64c6e;
 }
