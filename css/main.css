@@ -1,14 +1,22 @@
-@-moz-viewport { width: device-width; scale: 1; }
-@-ms-viewport { width: device-width; scale: 1; }
-@-o-viewport { width: device-width; scale: 1; }
-@-webkit-viewport { width: device-width; scale: 1; }
-@viewport { width: device-width; scale: 1; }
-
 html {
   font-family: 'Noto Sans', sans-serif;
   font-family: "Noto Sans Japanese", sans-serif;
 }
 
-nav {
+nav ul li a {
   color: #b64c6e;
+}
+
+nav ul li a:hover {
+  color: #860927;
+}
+
+.btn {
+  color: #b64c6e;
+  border-color: #d89fb0;
+  border-width: medium;
+}
+
+hr {
+  color: #e2e2e2;
 }
